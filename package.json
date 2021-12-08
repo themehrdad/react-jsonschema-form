@@ -29,7 +29,8 @@
   "homepage": "https://github.com/rjsf-team/react-jsonschema-form",
   "devDependencies": {
     "husky": "^3.1.0",
-    "source-map-loader": "^1.1.2"
+    "source-map-loader": "^1.1.2",
+    "lint-staged": "^12.1.2"
   },
   "husky": {
     "hooks": {

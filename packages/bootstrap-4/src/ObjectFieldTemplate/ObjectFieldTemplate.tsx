@@ -36,7 +36,7 @@ const ObjectFieldTemplate = ({
           <Row
             key={index}
             style={{ marginBottom: "10px" }}
-            className={element.hidden ? "d-none" : undefined}>
+            className={`${element.hidden ? "d-none" : undefined} ${uiSchema[element.name].classNames}`}>
             <Col xs={12}> {element.content}</Col>
           </Row>
         ))}
