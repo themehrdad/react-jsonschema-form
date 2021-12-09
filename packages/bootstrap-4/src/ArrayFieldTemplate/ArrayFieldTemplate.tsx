@@ -71,9 +71,9 @@ const DefaultArrayItem = (props: any) => {
   return (
     <div key={props.key}>
       <Row className="mb-2  d-flex align-items-center">
-        <Col xs="9" lg="9">{props.children}</Col>
+        <Col xs="9" lg="9" className={`array-item`}>{props.children}</Col>
 
-        <Col xs="3" lg="3" className="py-4">
+        <Col xs="3" lg="3" className={`py-4 array-item-controls`}>
           {props.hasToolbar && (
             <div className="d-flex flex-row">
               {(props.hasMoveUp || props.hasMoveDown) && (
